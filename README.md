@@ -8,9 +8,9 @@ At the same time, 🍉 is also a very useful tool. Python beginners can use this
 
 ## Installation
 
-- use pypi
+- use pypi(recommend)
 ```shell
-$ python3 -m pip install watermelon-todo-list==0.0.1
+$ python3 -m pip install watermelon-todo-list
 ```
 
 - use source code
@@ -39,7 +39,8 @@ you can use `watermelon -h` to get help
 the command line args👇
 ```text
 watermelon
--f <complete a event>
+-n <create a event>
+-f <finish a event>
 -r <remove a event>
 -a <display self-discipline results [today|month|year]>
 -l <show event list>
