@@ -1,3 +1,5 @@
+import platform
+import subprocess
 import time
 from operator import itemgetter
 from prettytable import PrettyTable
@@ -77,11 +79,18 @@ def watermelon(filename, event_info):
         create_event(filename, event_name + ':1')
 
     # start self-discipline
-    print('It is a time to work! 🍉')
+    print('It is a time to do some interesting things! 🍉')
+
+    if platform.system() == 'Darwin':
+        show_notification('🍉', 'It is a time to do some interesting things! ⭐️')
+
     discipline(work_time)
 
     if rest_time > 0:
         print('It is a time to take a break! ☕️')
+        if platform.system() == 'Darwin':
+            show_notification('🍉', 'It is a time to take a break! ☕️')
+
         discipline(rest_time)
     # end
 
@@ -111,3 +120,9 @@ def progressbar(curr, total, duration=10, extra=''):
     frac = curr / total
     filled = round(frac * duration)
     print('\r', '🍉' * filled + '--' * (duration - filled), '[{:.0%}]'.format(frac), extra, end='')
+
+
+def show_notification(title, text):
+    cmd = 'display notification \"' + \
+          text + '\" with title \"' + title + '\"'
+    subprocess.call(["osascript", "-e", cmd])

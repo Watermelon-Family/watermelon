@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='watermelon-todo-list',
-      version='0.0.1',
+      version='0.0.2',
       description='watermelon, inspired by tomato impl by python',
       author="ruanjiancheng",
       author_email="1434919953@qq.com",
