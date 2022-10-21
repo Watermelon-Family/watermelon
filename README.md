@@ -8,9 +8,9 @@ At the same time, 🍉 is also a very useful tool. Python beginners can use this
 
 ## Installation
 
-- use pypi (WIP)
+- use pypi
 ```shell
-$ pip install XXX 
+$ python3 -m pip install watermelon-todo-list==0.0.1
 ```
 
 - use source code
@@ -22,14 +22,14 @@ $ git clone git@github.com:Watermelon-Family/watermelon.git
 $ sh build.sh
 
 # use pip install 🍉
-$ pip install dist/watermelon-0.0.1.tar.gz 
+$ python3 -m pip install dist/watermelon-0.0.1.tar.gz 
 ```
 
 
 - use release
 ```shell
 # download the release, then
-$ pip install dist/watermelon-0.0.1.tar.gz 
+$ python3 -m pip install dist/watermelon-0.0.1.tar.gz 
 ```
 
 ## How to use 🍉

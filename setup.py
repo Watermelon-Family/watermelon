@@ -2,10 +2,11 @@
 from setuptools import setup, find_packages
 
 
-setup(name='watermelon',
+setup(name='watermelon-todo-list',
       version='0.0.1',
       description='watermelon, inspired by tomato impl by python',
-      author='ruanjiancheng, liuyiyang',
+      author="ruanjiancheng",
+      author_email="1434919953@qq.com",
       url='https://github.com/Watermelon-Family/watermelon',
       packages=find_packages(),
       long_description="watermelon",
