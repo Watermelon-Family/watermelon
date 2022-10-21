@@ -1,0 +1,15 @@
+.vscode
+__pycache__
+*/__pycache__
+.DS_Store
+venv
+/dist
+*.egg-info
+test
+test.*
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

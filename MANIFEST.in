@@ -1,0 +1,5 @@
+graft watermelon
+include README.md
+include setup.py
+include build.sh
+global-exclude *.pyc
