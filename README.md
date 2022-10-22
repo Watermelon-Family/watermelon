@@ -1,6 +1,6 @@
 # 🍉
 
-🍉 is a command line tool, inspired by tomato.
+🍉 is a command line tool, inspired by tomato🍅.
 
 🍉 has the simplest UI design on par with MySQL🐶 and the most primitive data storage method
 
@@ -51,18 +51,18 @@ watermelon
 
 ```shell
 # create a task
-$ watermelon -n codeing:5 
+$ watermelon -n coding:5 
 
 # show the task list, you can also use week, month or year.
 $ watermelon -l day      
 +---------+------------+----------+----------------------------+
 |   name  |  priority  | use time |        create time         |
 +---------+------------+----------+----------------------------+
-| codeing | ⭐️⭐️⭐️⭐️⭐️ |          | 2022-10-21 19:29:52.355550 |
+| coding | ⭐️⭐️⭐️⭐️⭐️ |          | 2022-10-21 19:29:52.355550 |
 +---------+------------+----------+----------------------------+
 
 # start watermelon timer
-$ watermelon -g 1:0:codeing
+$ watermelon -g 1:0:coding
 It is a time to work! 🍉
  🍉 [100%] 1:0 / 1:00 🕑
  
@@ -74,7 +74,7 @@ $ watermelon -a week
 +---------+------------+----------+----------------------------+
 |   name  |  priority  | use time |        finish time         |
 +---------+------------+----------+----------------------------+
-| codeing | ⭐️⭐️⭐️⭐️⭐️ |    🍉    | 2022-10-21 19:32:29.411117 |
+| coding | ⭐️⭐️⭐️⭐️⭐️ |    🍉    | 2022-10-21 19:32:29.411117 |
 +---------+------------+----------+----------------------------+
 
 ```
