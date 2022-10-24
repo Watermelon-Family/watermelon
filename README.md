@@ -6,6 +6,8 @@
 
 At the same time, 🍉 is also a very useful tool. Python beginners can use this project to practice your skills.
 
+We strongly recommend using 🍉 with tmux on macos.
+
 ## Installation
 
 - use pypi(recommend)
