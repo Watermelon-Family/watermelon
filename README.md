@@ -40,13 +40,16 @@ you can use `watermelon -h` to get help
 
 the command line args👇
 ```text
-watermelon
--n <create a event>
--f <finish a event>
--r <remove a event>
--a <display self-discipline results [today|month|year]>
--l <show event list>
--g <start self-discipline [work_time:rest_time:event]>
+watermelon [options]
+
+Options:
+  -h, --help       show this help message and exit
+  -n NEW_EVENT     create a event with priority like [name:priority]
+  -f FINISH_EVENT  finish a event by name
+  -r REMOVE_EVENT  remove a event by name
+  -l LIST_EVENT    list event [day|week|month|year]
+  -g WORK          start a timer with [work_time:break_time:event_name]
+  -a LIST_ACHIVE   list achievement [day|week|month|year]
 ```
 
 ## Display
