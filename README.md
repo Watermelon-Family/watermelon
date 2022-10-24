@@ -69,7 +69,7 @@ It is a time to work! 🍉
  🍉 [100%] 1:0 / 1:00 🕑
  
 # finish the task by name
-$ watermelon -f codeing
+$ watermelon -f coding
 
 # show the finish list🎉🎉🎉
 $ watermelon -a week   
