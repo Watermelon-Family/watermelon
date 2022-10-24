@@ -54,6 +54,10 @@ Options:
 
 ## Display
 
+⭐️: priority
+
+🍉: 25min
+
 ```shell
 # create a task
 $ watermelon -n coding:5 
