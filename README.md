@@ -6,7 +6,7 @@
 
 At the same time, 🍉 is also a very useful tool. Python beginners can use this project to practice your skills.
 
-We strongly recommend using 🍉 with tmux on macos.
+We strongly recommend using 🍉 with tmux on MacOS.
 
 ## Installation
 
@@ -60,7 +60,7 @@ $ watermelon -l day
 +---------+------------+----------+----------------------------+
 |   name  |  priority  | use time |        create time         |
 +---------+------------+----------+----------------------------+
-| coding | ⭐️⭐️⭐️⭐️⭐️ |          | 2022-10-21 19:29:52.355550 |
+|  coding | ⭐️⭐️⭐️⭐️⭐️ |          | 2022-10-21 19:29:52.355550 |
 +---------+------------+----------+----------------------------+
 
 # start watermelon timer
@@ -76,7 +76,7 @@ $ watermelon -a week
 +---------+------------+----------+----------------------------+
 |   name  |  priority  | use time |        finish time         |
 +---------+------------+----------+----------------------------+
-| coding | ⭐️⭐️⭐️⭐️⭐️ |    🍉    | 2022-10-21 19:32:29.411117 |
+|  coding | ⭐️⭐️⭐️⭐️⭐️ |    🍉    | 2022-10-21 19:32:29.411117 |
 +---------+------------+----------+----------------------------+
 
 ```
