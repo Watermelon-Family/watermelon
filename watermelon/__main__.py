@@ -2,9 +2,13 @@ from pathlib import Path
 
 from watermelon.event.event import create_event, finish_event, remove_event, list_event, watermelon, list_achievement
 
-def run(options):
+def get_resource():
     BASEDIR = Path(__file__).parent
     config = BASEDIR / 'resources' / 'db.json'
+    return config
+
+def run(options):
+    config = get_resource()
 
     if options.new_event is not None:
         create_event(config, options.new_event)
@@ -50,7 +54,7 @@ def main():
     except Exception as e:
         print(f'Watermelon quit unexpectedly: {e}')
 
-        
+
 
 if __name__ == '__main__':
     main()

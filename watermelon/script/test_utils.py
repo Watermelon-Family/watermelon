@@ -1,10 +1,11 @@
 import pytest as pytest
 
+from watermelon.__main__ import get_resource
 from watermelon.event.utils import create
 
 
 def return_file_name():
-    return '/Users/bytedance/projects/py_programs/watermelon/watermelon/resources/db.json'
+    return get_resource()
 
 def return_test_data():
     return [
