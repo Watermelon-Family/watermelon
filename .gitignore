@@ -8,6 +8,7 @@ venv
 test
 test.*
 .pypirc
+*.html
 
 # IntelliJ project files
 .idea
