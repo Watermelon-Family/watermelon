@@ -2,7 +2,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/watermelon-todo-list)
 ![GitHub](https://img.shields.io/github/license/Watermelon-Family/watermelon)
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/Watermelon-Family/watermelon/pytest)
 
 
 🍉 is a command line tool, inspired by tomato🍅.

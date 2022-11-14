@@ -1,3 +1,2 @@
 python-dateutil
 prettytable
-chinesename==0.0.9
