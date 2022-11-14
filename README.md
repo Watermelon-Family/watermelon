@@ -1,5 +1,10 @@
 # 🍉
 
+![PyPI](https://img.shields.io/pypi/v/watermelon-todo-list)
+![GitHub](https://img.shields.io/github/license/Watermelon-Family/watermelon)
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+
+
 🍉 is a command line tool, inspired by tomato🍅.
 
 🍉 has the simplest UI design on par with MySQL🐶 and the most primitive data storage method
